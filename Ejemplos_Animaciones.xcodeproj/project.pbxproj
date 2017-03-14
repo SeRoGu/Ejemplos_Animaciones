@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		966F03C51E76D94C00FDB25E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F03C41E76D94C00FDB25E /* main.m */; };
+		966F03C81E76D94C00FDB25E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F03C71E76D94C00FDB25E /* AppDelegate.m */; };
+		966F03CB1E76D94C00FDB25E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F03CA1E76D94C00FDB25E /* ViewController.m */; };
+		966F03CE1E76D94C00FDB25E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F03CC1E76D94C00FDB25E /* Main.storyboard */; };
+		966F03D01E76D94C00FDB25E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966F03CF1E76D94C00FDB25E /* Assets.xcassets */; };
+		966F03D31E76D94C00FDB25E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F03D11E76D94C00FDB25E /* LaunchScreen.storyboard */; };
+		966F03DB1E76F11500FDB25E /* Figura.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F03DA1E76F11500FDB25E /* Figura.m */; };
+		966F03DF1E770DE700FDB25E /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966F03DE1E770DE700FDB25E /* AnimationViewController.m */; };
+		96966F311E782F3E0076EDEF /* GiroSliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96966F301E782F3E0076EDEF /* GiroSliderViewController.m */; };
+		96966F351E7862C20076EDEF /* CarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96966F341E7862C20076EDEF /* CarouselViewController.m */; };
+		96966F391E7864140076EDEF /* Carousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 96966F381E7864140076EDEF /* Carousel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		966F03C01E76D94C00FDB25E /* Ejemplos_Animaciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ejemplos_Animaciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		966F03C41E76D94C00FDB25E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		966F03C61E76D94C00FDB25E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		966F03C71E76D94C00FDB25E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		966F03C91E76D94C00FDB25E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		966F03CA1E76D94C00FDB25E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		966F03CD1E76D94C00FDB25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966F03CF1E76D94C00FDB25E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		966F03D21E76D94C00FDB25E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		966F03D41E76D94C00FDB25E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966F03DA1E76F11500FDB25E /* Figura.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figura.m; sourceTree = "<group>"; };
+		966F03DC1E76F12E00FDB25E /* Figura.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Figura.h; sourceTree = "<group>"; };
+		966F03DD1E770DC800FDB25E /* AnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
+		966F03DE1E770DE700FDB25E /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		96966F301E782F3E0076EDEF /* GiroSliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiroSliderViewController.m; sourceTree = "<group>"; };
+		96966F321E782F4E0076EDEF /* GiroSliderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiroSliderViewController.h; sourceTree = "<group>"; };
+		96966F341E7862C20076EDEF /* CarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarouselViewController.m; sourceTree = "<group>"; };
+		96966F361E7862D10076EDEF /* CarouselViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarouselViewController.h; sourceTree = "<group>"; };
+		96966F371E7863E10076EDEF /* Carousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carousel.h; sourceTree = "<group>"; };
+		96966F381E7864140076EDEF /* Carousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carousel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		966F03BD1E76D94C00FDB25E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		966F03B71E76D94C00FDB25E = {
+			isa = PBXGroup;
+			children = (
+				966F03C21E76D94C00FDB25E /* Ejemplos_Animaciones */,
+				966F03C11E76D94C00FDB25E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		966F03C11E76D94C00FDB25E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966F03C01E76D94C00FDB25E /* Ejemplos_Animaciones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		966F03C21E76D94C00FDB25E /* Ejemplos_Animaciones */ = {
+			isa = PBXGroup;
+			children = (
+				966F03DD1E770DC800FDB25E /* AnimationViewController.h */,
+				966F03DE1E770DE700FDB25E /* AnimationViewController.m */,
+				966F03C61E76D94C00FDB25E /* AppDelegate.h */,
+				966F03C71E76D94C00FDB25E /* AppDelegate.m */,
+				966F03C91E76D94C00FDB25E /* ViewController.h */,
+				966F03CA1E76D94C00FDB25E /* ViewController.m */,
+				966F03CC1E76D94C00FDB25E /* Main.storyboard */,
+				966F03CF1E76D94C00FDB25E /* Assets.xcassets */,
+				966F03D11E76D94C00FDB25E /* LaunchScreen.storyboard */,
+				966F03D41E76D94C00FDB25E /* Info.plist */,
+				966F03C31E76D94C00FDB25E /* Supporting Files */,
+				966F03DC1E76F12E00FDB25E /* Figura.h */,
+				966F03DA1E76F11500FDB25E /* Figura.m */,
+				96966F321E782F4E0076EDEF /* GiroSliderViewController.h */,
+				96966F301E782F3E0076EDEF /* GiroSliderViewController.m */,
+				96966F361E7862D10076EDEF /* CarouselViewController.h */,
+				96966F341E7862C20076EDEF /* CarouselViewController.m */,
+				96966F371E7863E10076EDEF /* Carousel.h */,
+				96966F381E7864140076EDEF /* Carousel.m */,
+			);
+			path = Ejemplos_Animaciones;
+			sourceTree = "<group>";
+		};
+		966F03C31E76D94C00FDB25E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				966F03C41E76D94C00FDB25E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		966F03BF1E76D94C00FDB25E /* Ejemplos_Animaciones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 966F03D71E76D94C00FDB25E /* Build configuration list for PBXNativeTarget "Ejemplos_Animaciones" */;
+			buildPhases = (
+				966F03BC1E76D94C00FDB25E /* Sources */,
+				966F03BD1E76D94C00FDB25E /* Frameworks */,
+				966F03BE1E76D94C00FDB25E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ejemplos_Animaciones;
+			productName = Ejemplos_Animaciones;
+			productReference = 966F03C01E76D94C00FDB25E /* Ejemplos_Animaciones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		966F03B81E76D94C00FDB25E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Seba;
+				TargetAttributes = {
+					966F03BF1E76D94C00FDB25E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 966F03BB1E76D94C00FDB25E /* Build configuration list for PBXProject "Ejemplos_Animaciones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 966F03B71E76D94C00FDB25E;
+			productRefGroup = 966F03C11E76D94C00FDB25E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				966F03BF1E76D94C00FDB25E /* Ejemplos_Animaciones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		966F03BE1E76D94C00FDB25E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966F03D31E76D94C00FDB25E /* LaunchScreen.storyboard in Resources */,
+				966F03D01E76D94C00FDB25E /* Assets.xcassets in Resources */,
+				966F03CE1E76D94C00FDB25E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		966F03BC1E76D94C00FDB25E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966F03CB1E76D94C00FDB25E /* ViewController.m in Sources */,
+				966F03DB1E76F11500FDB25E /* Figura.m in Sources */,
+				96966F311E782F3E0076EDEF /* GiroSliderViewController.m in Sources */,
+				96966F391E7864140076EDEF /* Carousel.m in Sources */,
+				966F03DF1E770DE700FDB25E /* AnimationViewController.m in Sources */,
+				966F03C81E76D94C00FDB25E /* AppDelegate.m in Sources */,
+				966F03C51E76D94C00FDB25E /* main.m in Sources */,
+				96966F351E7862C20076EDEF /* CarouselViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		966F03CC1E76D94C00FDB25E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966F03CD1E76D94C00FDB25E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		966F03D11E76D94C00FDB25E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				966F03D21E76D94C00FDB25E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		966F03D51E76D94C00FDB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		966F03D61E76D94C00FDB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		966F03D81E76D94C00FDB25E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ejemplos_Animaciones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MART.Ejemplos-Animaciones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		966F03D91E76D94C00FDB25E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Ejemplos_Animaciones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MART.Ejemplos-Animaciones";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		966F03BB1E76D94C00FDB25E /* Build configuration list for PBXProject "Ejemplos_Animaciones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966F03D51E76D94C00FDB25E /* Debug */,
+				966F03D61E76D94C00FDB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		966F03D71E76D94C00FDB25E /* Build configuration list for PBXNativeTarget "Ejemplos_Animaciones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				966F03D81E76D94C00FDB25E /* Debug */,
+				966F03D91E76D94C00FDB25E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 966F03B81E76D94C00FDB25E /* Project object */;
+}

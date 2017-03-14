@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Bft-ja-nYP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="f26-A6-fO5"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Bt0-Ny-CXb"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bft-ja-nYP" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="QPm-D3-UKN"/>
+                            <constraint firstAttribute="trailing" secondItem="Bft-ja-nYP" secondAttribute="trailing" id="l6h-FP-AiC"/>
+                            <constraint firstItem="Bft-ja-nYP" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="msI-MY-Swo"/>
+                            <constraint firstItem="Bft-ja-nYP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rQ7-xk-8DA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="314" y="418"/>
+        </scene>
+        <!--Giro Slider View Controller-->
+        <scene sceneID="QC2-fv-DGP">
+            <objects>
+                <viewController storyboardIdentifier="GiroSliderViewController" id="UvK-Hz-ht6" customClass="GiroSliderViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FBl-tw-aGG"/>
+                        <viewControllerLayoutGuide type="bottom" id="pnB-7O-TFJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KOE-Zs-IWd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vSY-ya-5nM">
+                                <rect key="frame" x="190" y="157.5" width="219" height="31.5"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bv-Fd-cfv">
+                                <rect key="frame" x="279" y="28" width="42" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="360" translatesAutoresizingMaskIntoConstraints="NO" id="CXA-HV-2If">
+                                <rect key="frame" x="190" y="320" width="219" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="3iW-Jh-a46"/>
+                                    <constraint firstAttribute="width" constant="215" id="Q8V-OE-e0w"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="sliderControlador:" destination="UvK-Hz-ht6" eventType="valueChanged" id="qtQ-wb-Wjo"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CXA-HV-2If" firstAttribute="top" secondItem="vSY-ya-5nM" secondAttribute="bottom" priority="999" constant="198" id="0yp-uE-SNa"/>
+                            <constraint firstItem="vSY-ya-5nM" firstAttribute="centerX" secondItem="KOE-Zs-IWd" secondAttribute="centerX" id="IHX-rc-C95"/>
+                            <constraint firstItem="vSY-ya-5nM" firstAttribute="top" secondItem="4bv-Fd-cfv" secondAttribute="bottom" constant="177" id="Mwu-zZ-oa5"/>
+                            <constraint firstItem="CXA-HV-2If" firstAttribute="centerX" secondItem="KOE-Zs-IWd" secondAttribute="centerX" id="NNm-0T-q3X"/>
+                            <constraint firstItem="4bv-Fd-cfv" firstAttribute="top" secondItem="FBl-tw-aGG" secondAttribute="bottom" constant="8" id="Smh-N4-TiV"/>
+                            <constraint firstItem="4bv-Fd-cfv" firstAttribute="centerX" secondItem="KOE-Zs-IWd" secondAttribute="centerX" id="TQi-cR-hv3"/>
+                            <constraint firstItem="pnB-7O-TFJ" firstAttribute="top" secondItem="CXA-HV-2If" secondAttribute="bottom" priority="500" constant="116" id="XYL-rf-SIP"/>
+                            <constraint firstItem="CXA-HV-2If" firstAttribute="top" secondItem="vSY-ya-5nM" secondAttribute="bottom" constant="131.5" id="a6u-ld-GRh"/>
+                            <constraint firstItem="CXA-HV-2If" firstAttribute="leading" secondItem="vSY-ya-5nM" secondAttribute="leading" id="tdh-jT-G4t"/>
+                        </constraints>
+                        <variation key="heightClass=compact">
+                            <mask key="subviews">
+                                <exclude reference="4bv-Fd-cfv"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Mwu-zZ-oa5"/>
+                                <exclude reference="Smh-N4-TiV"/>
+                                <exclude reference="XYL-rf-SIP"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <exclude reference="a6u-ld-GRh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="etiqueta" destination="4bv-Fd-cfv" id="hUk-Js-HKt"/>
+                        <outlet property="sliderControl" destination="CXA-HV-2If" id="WKc-pn-VpA"/>
+                        <outlet property="sliderGira" destination="vSY-ya-5nM" id="NoQ-86-0V2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gZr-VT-zou" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="784"/>
+        </scene>
+        <!--Carousel View Controller-->
+        <scene sceneID="bNb-rq-p9m">
+            <objects>
+                <viewController storyboardIdentifier="CarouselViewController" id="9p7-R1-6UZ" customClass="CarouselViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yQM-3X-Y6c"/>
+                        <viewControllerLayoutGuide type="bottom" id="nd1-Gj-VHe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dM5-WO-JdY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oDR-BN-YeI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1015" y="1487"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="fud-5s-6IC">
+            <objects>
+                <viewController storyboardIdentifier="AnimationViewController" id="m4m-5N-Whv" customClass="AnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="RI4-3m-rQU"/>
+                        <viewControllerLayoutGuide type="bottom" id="RmV-1d-dCu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5b4-Ra-ttd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t4l-er-af0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="969" y="111"/>
+        </scene>
+    </scenes>
+</document>
